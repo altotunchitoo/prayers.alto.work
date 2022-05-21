@@ -1,0 +1,33 @@
+.download-app {
+    width: 220px;
+    display: inline-block;
+    margin: 0 auto;
+    height: auto;
+    min-height: 73px;
+}
+
+.k-download-btn {
+    display: inline-block;
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: .7;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+
+@media all and (max-width: 425px) {
+    .download-app {
+        width: 90%;
+        min-width: 240px;
+        max-width: 300px;
+        display: inline-block;
+        margin: 0 auto;
+        height: 74px;
+    }
+}
